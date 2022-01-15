@@ -1,4 +1,10 @@
 body{
-background: #000;
+background: #000
 color: #FFF;
+background:  url(Imagens/cosmo2.jpg) no-repeat 50% 30px;
+background-size: 1000px 1800px;
+background-attachment: fixed
+}
+
+body{color: white
 }
