@@ -1,5 +1,4 @@
-body
-{
+body{
 text-align: center;
 background: #000
 color: #FFF;
@@ -8,11 +7,25 @@ background-size: 1000px 1800px;
 background-attachment: fixed
 }
 
-body
-{color: white
+body{
+color: white
 }
 
-p
-{
+p{
 text-align: left;
+}
+
+nav{
+font-size: 50px;
+}
+
+header li{
+background: SaddleBrown;
+border: 5px solid #C19A6B;
+padding: 20px;
+display: inline
+}
+header a{
+color: #FFFFFF;
+text-decoration: none;
 }
