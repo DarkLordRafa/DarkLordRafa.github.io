@@ -1,0 +1,44 @@
+*{
+padding-top: 0;
+margin-top: 12px;
+}
+
+body{
+text-align: center;
+background: #000
+color: #FFF;
+background:  url(Imagens/cosmo2.jpg) no-repeat center fixed;
+background-size: 1000px 1800px;
+background-attachment: fixed
+}
+
+body
+{color: white
+}
+
+#aviso{
+color: #FFFF66;
+}
+
+#aviso2{
+font-size: 70px;
+}
+
+p{
+text-align: left;
+}
+
+nav{
+font-size: 50px;
+}
+
+header li{
+background: SaddleBrown;
+border: 5px solid #C19A6B;
+padding: 20px;
+display: inline
+}
+header a{
+color: #FFFFFF;
+text-decoration: none;
+}
