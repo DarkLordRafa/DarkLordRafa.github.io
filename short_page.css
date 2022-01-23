@@ -60,9 +60,8 @@ padding-top: 20px;
 border: 10px solid DarkBlue;
 }
 
-audio{
-padding-top: 50px;
-padding-bottom: 80px;
+.padding_bottom{
+padding-bottom: 200px;
 }
 
 .lista{
