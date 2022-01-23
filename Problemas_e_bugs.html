@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+	<head>
+		<title>Problemas e Bugs</title>
+		<meta charset = "utf-8">
+    <title>Os Cavaleiros do Zodíaco</title>
+	<link rel = "stylesheet" type = "text/css" href = "problemas.css">
+	</head>
+	<body>
+	
+	<script>
+	function play2(url){
+	var audio = new Audio('Audio/personagens.mp3');
+	audio.play();
+	audio.loop = true;
+	}
+	</script>
+	
+	<script>
+		function stop(){
+		play2().pause();
+		play2().currentTime = 0;
+		}
+	</script>
+
+	<br>
+	<nav>
+	<header>
+	<ul>
+		<a href = "index.html" onclick = "stop()"><li>Início</li></a>
+		<a href = "sagas.html" onclick = "stop()"><li>Sagas</li></a>
+		<a href = "personagens.html" onclick = "play2()" onclick = "window.close()" target = "_blank"><li>Personagens</li></a>
+		<a href = "Sobre_o_site.html" onclick = "stop()"><li>Sobre o site</li></a>
+	</ul>
+	</header>
+	</nav>
+	<br>
+	
+	<div class = "bloco">
+	<h1 id = "Problemas">*Problemas conhecidos*</h1>
+	<br>
+	
+	<h1>Música de fundo</h1>
+	<br>
+	
+	<p>
+		Algumas vezes a música de fundo não para quando se
+		clica em alguma das opções do menu, o que não
+		deveria acontecer. Forçando o visitante do site a parar
+		a música manualmente, ou clicar duas vezes nas
+		opções do menu (Se clicar em "Personagens", 
+		a música irá reiniciar).
+	</p>
+	<br>
+	
+	<h1>Abas em excesso</h1>
+	<br>
+	
+	<p>
+		Atualmente, para reproduzir o som da música de fundo
+		e outros efeitos sonoros, o site precisa abrir uma nova
+		aba no navegador. Essas várias abas abertas podem
+		incomodar o visitante do site, além de fazer com que
+		o navegador exija mais memória RAM.
+	</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</body>
+</html>

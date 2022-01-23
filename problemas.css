@@ -5,8 +5,8 @@ margin-top: 0;
 
 body{
 text-align: center;
-background:  url(Imagens/cosmo2.jpg) no-repeat center fixed;
-background-size: 1200px 1800px;
+background:  url(Imagens/derrotado.png) no-repeat center fixed;
+background-size: 1600px 1800px;
 background-attachment: fixed;
 }
 
@@ -22,8 +22,12 @@ color: #FFFF66;
 font-size: 70px;
 }
 
+#Problemas{
+font-size: 50px;
+}
+
 p{
-text-align: left;
+text-align: center;
 }
 
 .introdução{

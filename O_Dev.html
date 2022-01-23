@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+	<head>
+		<title>O Dev</title>
+		<meta charset = "utf-8">
+		<link rel = "stylesheet" type = "text/css" href = "style.css">
+	</head>
+	<body>
+	
+	<script>
+	function play2(url){
+	var audio = new Audio('Audio/personagens.mp3');
+	audio.play();
+	audio.loop = true;
+	}
+	</script>
+	
+	<script>
+		function stop(){
+		play2().pause();
+		play2().currentTime = 0;
+		}
+	</script>
+	
+	<br>
+	<nav>
+	<header>
+	<ul>
+		<a href = "index.html" onclick = "stop()"><li>Início</li></a>
+		<a href = "sagas.html" onclick = "stop()"><li>Sagas</li></a>
+		<a href = "personagens.html" onclick = "play2()" onclick = "window.close()" target = "_blank"><li>Personagens</li></a>
+		<a href = "Sobre_o_site.html" onclick = "stop()"><li>Sobre o site</li></a>
+	</ul>
+	</header>
+	</nav>
+	<br>
+	
+	<div class = "bloco">
+	<img src = "Imagens/Rafael.jpg" heigth = "600" width = "600">
+	<br>
+	<br>
+	<br>
+	
+	<p>
+		 Olá 🙂 Meu nome é Rafael. Sou o desenvolvedor do site.
+		Estou desenvolvendo esse site como uma forma de 
+		aprendizado, um hobby e um desafio pessoal. Sempre
+		gostei de assuntos sobre tecnologia, seja hardware ou
+		software. Sou estudante de TI, e atualmente estou
+		estudando programação Front End. Conheço um 
+		pouco de Python e agora estou vendo HTML, CSS e
+		Javascript. Meu objetivo é obter cada vez mais
+		conhecimento na área  e assim poder
+		criar meus próprios projetos pessoais, contribuir um
+		pouco que seja para o avanço da tecnologia, levar um
+		pouco de alegria para as pessoas, e tornar suas vidas
+		mais simples.
+		No momento estudo para poder começar a trabalhar o
+		quanto antes na área, e assim poder melhorar minha
+		situação financeira.
+		Estou me esforçando bastante para tornar este site
+		agradável e fácil de navegar para você que está lendo.
+		Se você quiser me apoiar neste projeto e nos meus
+		estudos, abaixo está o meu pix. De maneira alguma
+		quero que você se sinta obrigado a me dar algo, porém
+		serei muito grato a todos que puderem me ajudar de
+		qualquer forma e com qualquer quantia.
+		<br>
+		Muito obrigado por sua atenção.
+	</p>
+	
+	<p id = "Pix">
+		Meu Pix (Celular)
+		<br>
+		<br>
+		19995749468
+	</p>
+	</div>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</body>
+</html>
