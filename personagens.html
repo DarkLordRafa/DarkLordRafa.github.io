@@ -8,25 +8,67 @@
 </head>
 <body>
 
+	<script>
+		function play(url){
+		var audio = new Audio('Audio/select.wav');
+		audio.play();
+		}
+	</script>
+	
+	<script>
+	function play2(url){
+	var audio = new Audio('Audio/personagens.mp3');
+	audio.play();
+	audio.loop = true;
+	}
+	</script>
+	
+	<script>
+		function stop(){
+		play2().pause();
+		play2().currentTime = 0;
+		}
+	</script>
+
+	<script>
+	function change(){
+	document.getElementById("bronze1").style.borderColor="#00FF00"; }
+	</script>
+	
+	<script>
+	function change2(){
+	document.getElementById("bronze2").style.borderColor="#00FF00"; }
+	</script>
+	
+	<br>
+	<br>
 	<br>
 	<nav>
 	<header>
 	<ul>
-		<a href = "index.html"><li>Início</li></a>
-		<a href = "sagas.html"><li>Sagas</li></a>
-		<a href = "personagens.html"><li>Personagens</li></a>
+		<a href = "index.html" onclick = "stop()"><li>Início</li></a>
+		<a href = "sagas.html" onclick = "stop()"><li>Sagas</li></a>
+		<a href = "personagens.html" onclick = "play2()" onclick = "window.close()" target = "_blank"><li>Personagens</li></a>
 	</ul>
 	</header>
 	</nav>
-
 	<br>
-	<h1 id = "aviso2">Em Construção...</h1>
-	<br>
-	<img src = "Imagens/construcao.gif" height = "700" width = "900">
-	<audio controls>
-	<source src = "Audio/waiting_ost.mp3" type = "audio/mp3">
-	</audio>
 	
+	<ul id = "menu_personagens">
+		<li>
+			<a href = "cavaleiros_de_bronze.html" target = "_blank" onclick = "play()">
+			<img src = "Imagens/cavaleiros_de_bronze.jpg" height = "300" width = "300" id = "bronze1" onclick = "change()">
+			</a>
+			<h1>Cavaleiros<br>de<br>bronze</h1>
+		</li>
+		
+		<li>
+			<a href = "construcao.html" target = "_blank" onclick = "play()">
+			<img src = "Imagens/cavaleiros_de_ouro.jpg" height = "300" width = "300" id = "bronze2" onclick = "change2()">
+			</a>
+			<h1>Cavaleiros<br>de<br>ouro</h1>
+		</li>
+	</ul>
 	
 	
 	

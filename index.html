@@ -7,14 +7,29 @@
 	<link rel = "stylesheet" type = "text/css" href = "style.css">
 </head>
 <body>
+	
+	<script>
+	function play2(url){
+	var audio = new Audio('Audio/personagens.mp3');
+	audio.play();
+	audio.loop = true;
+	}
+	</script>
+	
+	<script>
+		function stop(){
+		play2().pause();
+		play2().currentTime = 0;
+		}
+	</script>
 
 	<br>
 	<nav>
 	<header>
 	<ul>
-		<a href = "index.html"><li>Início</li></a>
-		<a href = "sagas.html"><li>Sagas</li></a>
-		<a href = "personagens.html"><li>Personagens</li></a>
+		<a href = "index.html" onclick = "stop()"><li>Início</li></a>
+		<a href = "sagas.html" onclick = "stop()"><li>Sagas</li></a>
+		<a href = "personagens.html" onclick = "play2()" onclick = "window.close()" target = "_blank"><li>Personagens</li></a>
 	</ul>
 	</header>
 	</nav>
@@ -27,10 +42,10 @@
 			<source src = "Audio/ost1.mp3">
 			<type = "audio/mp3">
 		</audio>
-		<img src = "Imagens/Cosmo.png" title = "Guerra Santa" height = "600" width = "900" alt = "hi" class = "inline"/>
+		<img src = "Imagens/Cosmo.png" height = "600" width = "900">
 		<br>
 		<br>
-		<p>
+		<p class = introdução>
 			Desde o início dos tempos, os deuses travavam 
 			intensas batalhas em disputa do universo. É dito 
 			que quando o mal ameaça novamente a Terra, 
@@ -50,7 +65,7 @@
 		<source src = "Audio/ost2.mp3">
 		<type = "audio/mp3">
 		</audio>
-		<img src = "Imagens/saint.png" title = "Cavaleiros de Ouro" height = "600" width = "900" alt = "hi" class = "inline"/>
+		<img src = "Imagens/saint.png" height = "600" width = "900">
 		<p>
 		<br>
 			Os <strong>Cavaleiros de Ouro</strong> são os 12 
@@ -61,7 +76,7 @@
 		
 		<h1>Mu de Áries</h1>
 		<br>
-		<img src = "Imagens/Mu.png" title = "Mu" height = "700" width = "700" alt = "hi" class = "inline"/>
+		<img src = "Imagens/Mu.png" height = "700" width = "700">
 		<p>
 		<br>
 			Cavaleiro de Ouro que protege a Casa de Áries. 
@@ -92,7 +107,7 @@
 		
 		<h1>Shaka de Virgem</h1>
 		<br>
-		<img src = "Imagens/Shaka.jpg" title = "Shaka" height = "700" width = "450" alt = "hi" class = "inline"/>
+		<img src = "Imagens/Shaka.jpg" height = "700" width = "450">
 		<p>
 		<br>
 			Cavaleiro de Ouro que protege a Casa de Virgem no 

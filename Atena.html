@@ -8,13 +8,28 @@
 </head>
 <body>
 
+	<script>
+	function play2(url){
+	var audio = new Audio('Audio/personagens.mp3');
+	audio.play();
+	audio.loop = true;
+	}
+	</script>
+	
+	<script>
+		function stop(){
+		play2().pause();
+		play2().currentTime = 0;
+		}
+	</script>
+
 	<br>
 	<nav>
 	<header>
 	<ul>
-		<a href = "index.html"><li>Início</li></a>
-		<a href = "sagas.html"><li>Sagas</li></a>
-		<a href = "personagens.html"><li>Personagens</li></a>
+		<a href = "index.html" onclick = "stop()"><li>Início</li></a>
+		<a href = "sagas.html" onclick = "stop()"><li>Sagas</li></a>
+		<a href = "personagens.html" onclick = "play2()" onclick = "window.close()" target = "_blank"><li>Personagens</li></a>
 	</ul>
 	</header>
 	</nav>

@@ -1,0 +1,60 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+        "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+    <title>Personagens</title>
+	<meta charset = "utf-8">
+	<link rel = "stylesheet" type = "text/css" href = "short_page.css">
+</head>
+<body>
+
+	<script>
+	function play2(url){
+	var audio = new Audio('Audio/personagens.mp3');
+	audio.play();
+	audio.loop = true;
+	}
+	</script>
+	
+	<script>
+		function stop(){
+		play2().pause();
+		play2().currentTime = 0;
+		}
+	</script>
+	
+	<br>
+	<br>
+	<br>
+	<nav>
+	<header>
+	<ul>
+		<a href = "index.html" onclick = "stop()"><li>Início</li></a>
+		<a href = "sagas.html" onclick = "stop()"><li>Sagas</li></a>
+		<a href = "personagens.html" onclick = "play2()" onclick = "window.close()" target = "_blank"><li>Personagens</li></a>
+	</ul>
+	</header>
+	</nav>
+
+	<br>
+	<h1 id = "aviso2">Em Construção...</h1>
+	<br>
+	<img src = "Imagens/construcao.gif" height = "700" width = "900">
+	<audio controls autoplay>
+	<source src = "Audio/waiting_ost.mp3" type = "audio/mp3">
+	</audio>
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+
+
+</body>
+</html>
