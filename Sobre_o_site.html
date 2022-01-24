@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+	<head>
+		<title>Sobre o site</title>
+		<meta charset = "utf-8">
+		<link rel = "stylesheet" type = "text/css" href = "Sobre_o_site.css">
+	</head>
+	<body>
+	
+	<script>
+	function play2(url){
+	var audio = new Audio('Audio/personagens.mp3');
+	audio.play();
+	audio.loop = true;
+	}
+	</script>
+	
+	<script>
+		function stop(){
+		play2().pause();
+		play2().currentTime = 0;
+		}
+	</script>
+
+	<br>
+	<br>
+	<br>
+	<nav>
+	<header>
+	<ul>
+		<a href = "index.html" onclick = "stop()"><li>Início</li></a>
+		<a href = "sagas.html" onclick = "stop()"><li>Sagas</li></a>
+		<a href = "personagens.html" onclick = "play2()" onclick = "window.close()" target = "_blank"><li>Personagens</li></a>
+		<a href = "Sobre_o_site.html" onclick = "stop()"><li>Sobre o site</li></a>
+	</ul>
+	</header>
+	</nav>
+	
+	<ul class = "lista">
+		<a href = "O_Dev.html"><li>O Dev</li></a>
+		<a href = "Problemas_e_bugs.html"><li>Problemas e Bugs</li></a>
+	</ul>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	</body>
+</html>
