@@ -6,13 +6,26 @@ margin-top: 0;
 body{
 text-align: center;
 background:  url(Imagens/cosmo2.jpg) no-repeat center fixed;
-background-size: 1200px 1800px;
+background-size: cover;
 background-attachment: fixed;
 background-color: black;
+color: white;
 }
 
-body
-{color: white
+header li{
+background: SaddleBrown;
+border: 5px solid #C19A6B;
+padding: 20px;
+margin: 10px;
+display: inline-block;
+margin-bottom: 15px;
+
+}
+
+header a{
+color: #FFFFFF;
+text-decoration: none;
+font-size: 50px;
 }
 
 #aviso{
@@ -28,26 +41,8 @@ text-align: left;
 }
 
 .introdução{
-color: withe;
 text-align: center;
 font-style: oblique;
-}
-
-nav{
-font-size: 50px;
-}
-
-header li{
-background: SaddleBrown;
-border: 5px solid #C19A6B;
-padding: 20px;
-margin-bottom: 20px;
-display: inline-block
-}
-
-header a{
-color: #FFFFFF;
-text-decoration: none;
 }
 
 #Pix{
@@ -63,13 +58,74 @@ font-weight: Bold;
 }
 
 .bloco{
-padding-bottom: 200px;
+padding-bottom: 400px;
 }
 
 .center{
 text-align: center;
 }
 
+
+@media (max-width: 480px){
+	
+body{
+background-size: 480px 700px;
+}
+
+header li{
+background: SaddleBrown;
+border: 2px solid #C19A6B;
+padding: 8px;
+margin: 2px;
+display: inline-block;
+margin-bottom: 7px;
+}
+
+header a{
+color: #FFFFFF;
+text-decoration: none;
+font-size: 18px;
+}
+
+p{
+font-size: 20px;
+}
+
+h1{
+font-size: 26px;
+}
+
+audio{
+height: 30px;
+padding-bottom: 5px;
+}
+
+video{
+height: 250px;
+width: 100%;
+}
+
+.imagem_larga{
+height: 230px;
+width: 100%;
+}
+
+.imagem_estreita{
+height: 300px;
+width: 200px;
+}
+
+#Mu1{
+height:300px;
+width: 250px;
+
+}
+
+.bloco{
+padding-bottom: 100px;
+}
+
+	}
 
 
 
