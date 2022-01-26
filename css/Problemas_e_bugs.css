@@ -1,0 +1,86 @@
+*{
+padding-top: 0;
+margin-top: 0;
+}
+
+body{
+text-align: center;
+background:  url(background/Derrotado.png) no-repeat center fixed;
+background-size: 1600px 1800px;
+background-attachment: fixed;
+background-color: black;
+}
+
+body
+{color: white
+}
+
+#aviso{
+color: #FFFF66;
+}
+
+#aviso2{
+font-size: 70px;
+}
+
+.opção a:hover, a:focus, a:active{
+color: Yellow;
+ }
+
+a, a:hover, a:focus, a:active{
+color: #0096FF;
+ }
+
+#Problemas{
+font-size: 50px;
+}
+
+p{
+text-align: center;
+}
+
+.introdução{
+color: withe;
+text-align: center;
+font-style: oblique;
+}
+
+nav{
+font-size: 50px;
+}
+
+header li{
+background: SaddleBrown;
+border: 5px solid #C19A6B;
+padding: 20px;
+margin-bottom: 20px;
+display: inline-block
+}
+
+header a{
+color: #FFFFFF;
+text-decoration: none;
+}
+
+#Pix{
+text-align: center;
+padding-top: 20px;
+padding-bottom: 200px;
+color: Yellow;
+font-weight: Bold;
+}
+
+#Destaque{
+font-weight: Bold;
+}
+
+.bloco{
+padding-bottom: 200px;
+}
+
+
+
+
+
+
+
