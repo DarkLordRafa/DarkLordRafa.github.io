@@ -9,18 +9,7 @@ background:  url(background/Eliseos.png) no-repeat center fixed;
 background-size: 1400px 1800px;
 background-attachment: fixed;
 background-color: #0096FF;
-}
-
-body
-{color: white
-}
-
-#aviso{
-color: #FFFF66;
-}
-
-#aviso2{
-font-size: 70px;
+color: white;
 }
 
 #opção a:hover, a:focus, a:active{
@@ -35,10 +24,6 @@ p{
 text-align: left;
 }
 
-header{
-font-size: 50px;
-}
-
 header li{
 background: SaddleBrown;
 border: 5px solid #C19A6B;
@@ -51,27 +36,6 @@ header a{
 color: #FFFFFF;
 text-decoration: none;
 font-size: 50px;
-}
-
-#menu_personagens li{
-display: inline-block;
-padding-right: 30px;
-padding-bottom: 0;
-padding-top: 20px;
-font-size: 20px;
-}
-
-#menu_personagens h1{
-padding-top: 20px;
-}
-
-#menu_personagens img{
-border: 10px solid DarkBlue;
-}
-
-audio{
-padding-top: 50px;
-padding-bottom: 80px;
 }
 
 .lista{
@@ -96,6 +60,97 @@ text-decoration: none;
 padding: 0;
 font-size: 48px;
 }
+
+
+
+
+
+@media (max-width: 480px){
+
+body{
+background-size: 480px 700px;
+	}
+	
+header{
+padding-top: 19px;
+}
+
+header li{
+background: SaddleBrown;
+border: 3px solid #C19A6B;
+padding: 8px;
+margin: 2px;
+display: inline-block;
+margin-bottom: 7px;
+	}
+
+header a{
+color: #FFFFFF;
+text-decoration: none;
+font-size: 18px;
+	}
+
+.lista{
+width: 60%;
+padding-top: 25px;
+padding-right: 40px;
+}
+
+.lista li{
+background: SaddleBrown;
+border: 2px solid #C19A6B;
+padding: 5px;
+margin-bottom: 8px;
+display: block;
+block-size:20px;
+width: 200px;
+}
+
+.lista a{
+color: #FFFFFF;
+text-decoration: none;
+padding: 0;
+font-size: 18px;
+}
+	
+p{
+font-size: 20px;
+	}
+
+h1{
+font-size: 26px;
+	}
+
+audio{
+height: 30px;
+padding-bottom: 5px;
+	}
+
+video{
+height: 250px;
+width: 100%;
+	}
+
+.imagem_larga{
+height: 230px;
+width: 100%;
+	}
+
+.imagem_estreita{
+height: 300px;
+width: 200px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -27,15 +27,6 @@ text-decoration: none;
 font-size: 50px;
 }
 
-
-#aviso{
-color: #FFFF66;
-}
-
-#aviso2{
-font-size: 70px;
-}
-
 .opção a:hover, a:focus, a:active{
 color: Yellow;
  }
@@ -51,18 +42,6 @@ text-align: left;
 .introdução{
 text-align: center;
 font-style: oblique;
-}
-
-#Pix{
-text-align: center;
-padding-top: 20px;
-padding-bottom: 200px;
-color: Yellow;
-font-weight: Bold;
-}
-
-#Destaque{
-font-weight: Bold;
 }
 
 .bloco{
@@ -85,7 +64,7 @@ background-size: 480px 700px;
 
 header li{
 background: SaddleBrown;
-border: 2px solid #C19A6B;
+border: 3px solid #C19A6B;
 padding: 8px;
 margin: 2px;
 display: inline-block;
@@ -118,17 +97,12 @@ width: 100%;
 
 .imagem_larga{
 height: 230px;
-width: 100%;
+width: 90%;
 	}
 
 .imagem_estreita{
 height: 300px;
-width: 200px;
-	}
-
-#Mu1{
-height:300px;
-width: 250px;
+width: 230px;
 	}
 
 .bloco{

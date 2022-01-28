@@ -15,14 +15,6 @@ body
 {color: white
 }
 
-#aviso{
-color: #FFFF66;
-}
-
-#aviso2{
-font-size: 70px;
-}
-
 .opção a:hover, a:focus, a:active{
 color: Yellow;
  }
@@ -39,44 +31,75 @@ p{
 text-align: center;
 }
 
-.introdução{
-color: withe;
-text-align: center;
-font-style: oblique;
-}
-
-nav{
-font-size: 50px;
-}
-
 header li{
 background: SaddleBrown;
 border: 5px solid #C19A6B;
 padding: 20px;
-margin-bottom: 20px;
-display: inline-block
+margin: 10px;
+margin-bottom: 15px;
+display: inline-block;
+
 }
 
 header a{
 color: #FFFFFF;
 text-decoration: none;
-}
-
-#Pix{
-text-align: center;
-padding-top: 20px;
-padding-bottom: 200px;
-color: Yellow;
-font-weight: Bold;
-}
-
-#Destaque{
-font-weight: Bold;
+font-size: 50px;
 }
 
 .bloco{
 padding-bottom: 200px;
 }
+
+
+
+
+
+@media (max-width: 480px){
+
+body{
+background-size: 480px 700px;
+	}
+	
+header li{
+background: SaddleBrown;
+border: 3px solid #C19A6B;
+padding: 8px;
+margin: 2px;
+display: inline-block;
+margin-bottom: 7px;
+	}
+
+header a{
+color: #FFFFFF;
+text-decoration: none;
+font-size: 18px;
+	}
+	
+#problemas{
+font-size: 26px;
+}
+
+p{
+font-size: 20px;
+	}
+
+h1{
+font-size: 26px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
