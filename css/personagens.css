@@ -69,10 +69,6 @@ body{
 background-size: 480px 700px;
 	}
 
-#menu_personagens{
-padding-right: 30px;
-}
-
 header{
 padding-top: 19px;
 }
@@ -119,12 +115,14 @@ width: 100%;
 height: 300px;
 width: 200px;
 	}
+
+#menu_personagens{
+padding-right: 30px;
+}
 	
 #menu_personagens li{
 display: inline-block;
-padding-right: 5px;
-padding-bottom: 0;
-padding-top: 10px;
+padding-right: 10px;
 }
 
 #menu_personagens h1{
