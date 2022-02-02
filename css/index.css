@@ -134,6 +134,75 @@ padding-bottom: 100px;
 	
 }
 
+@media (max-width: 780px){
+
+body{
+background-size: 780px 1024px;
+	}
+
+header li{
+background: SaddleBrown;
+border: 5px solid #C19A6B;
+padding: 12px;
+margin: 4px;
+display: inline-block;
+margin-bottom: 10px;
+	}
+
+header a{
+color: #FFFFFF;
+text-decoration: none;
+font-size: 20px;
+	}
+
+p{
+font-size: 22px;
+	}
+
+#atualizações{
+font-size: 26px;
+}
+	
+h1{
+font-size: 28px;
+	}
+
+audio{
+height: 35px;
+padding-bottom: 10px;
+	}
+
+video{
+height: 350px;
+width: 100%;
+	}
+
+.imagem_larga{
+height: 330px;
+width: 100%;
+	}
+
+.imagem_estreita{
+height: 400px;
+width: 300px;
+	}
+
+#Mu1{
+height:400px;
+width: 380px;
+	}
+
+#Shaka1{
+height: 400px;
+width: 280px;
+}
+	
+.bloco{
+padding-bottom: 150px;
+	}
+
+}
+
 
 
 
