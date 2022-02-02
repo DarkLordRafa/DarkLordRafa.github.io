@@ -65,7 +65,7 @@ text-align: center;
 
 
 
-@media (max-width: 480px){
+@media (min-width: 240px) and (max-width: 479px){
 
 body{
 background-size: 480px 700px;
@@ -131,10 +131,10 @@ width: 180px;
 .bloco{
 padding-bottom: 100px;
 	}
-	
 }
 
-@media (max-width: 780px){
+
+@media (min-width: 480px) and (max-width: 779px){
 
 body{
 background-size: 780px 1024px;
@@ -142,8 +142,8 @@ background-size: 780px 1024px;
 
 header li{
 background: SaddleBrown;
-border: 5px solid #C19A6B;
-padding: 12px;
+border: 10px solid #C19A6B;
+padding: 5px;
 margin: 4px;
 display: inline-block;
 margin-bottom: 10px;
