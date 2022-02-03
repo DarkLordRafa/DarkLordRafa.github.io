@@ -101,6 +101,10 @@ padding-bottom: 100px;
 body{
 background-size: 780px 1024px;
 	}
+	
+header{
+padding-bottom: 0;
+}
 
 header li{
 background: SaddleBrown;
@@ -140,7 +144,6 @@ height: 500px;
 width: 400px;
 	}
 
-	
 .bloco{
 padding-bottom: 150px;
 	}
