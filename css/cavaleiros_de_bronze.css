@@ -175,18 +175,18 @@ padding-bottom: 70px;
 	}
 	
 video{
-height: 350px;
-width: 100%;
-	}
-
-.imagem_larga{
 height: 400px;
 width: 100%;
 	}
 
-.imagem_estreita{
+.imagem_larga{
 height: 500px;
-width: 350px;
+width: 100%;
+	}
+
+.imagem_estreita{
+height: 600px;
+width: 450px;
 	}
 	
 #final{
