@@ -149,7 +149,7 @@ font-size: 32px;
 	}
 	
 #aviso{
-font-size: 36px;
+font-size: 40px;
 }
 
 audio{
@@ -163,13 +163,13 @@ width: 100%;
 	}
 
 .imagem_larga{
-height: 400px;
+height: 500px;
 width: 100%;
 	}
 
 .imagem_estreita{
-height: 500px;
-width: 350px;
+height: 600px;
+width: 450px;
 	}
 	
 .bloco{
