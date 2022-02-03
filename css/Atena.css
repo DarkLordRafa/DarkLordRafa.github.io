@@ -42,7 +42,7 @@ color: Yellow;
 
 
 
-@media (max-width: 480px){
+@media (min-width: 240px) and (max-width: 479px){
 
 body{
 background-size: 480px 700px;
@@ -93,6 +93,58 @@ width: 200px;
 .bloco{
 padding-bottom: 100px;
 	}
+}
+
+
+@media (min-width: 480px) and (max-width: 779px){
+
+body{
+background-size: 780px 1024px;
+	}
+
+header li{
+background: SaddleBrown;
+border: 5px solid #C19A6B;
+padding: 12px;
+margin: 10px;
+display: inline-block;
+margin-bottom: 14px;
+	}
+
+header a{
+color: #FFFFFF;
+text-decoration: none;
+font-size: 22px;
+	}
+
+p{
+font-size: 26px;
+	}
+	
+h1{
+font-size: 32px;
+	}
+
+.imagem_larga{
+height: 430px;
+width: 100%;
+	}
+	
+#Atena1{
+height:480px;
+width: 480px;
+}
+
+.imagem_estreita{
+height: 500px;
+width: 400px;
+	}
+
+	
+.bloco{
+padding-bottom: 150px;
+	}
+
 }
 
 
