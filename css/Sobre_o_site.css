@@ -176,11 +176,11 @@ padding-right: 60px;
 
 .lista li{
 background: SaddleBrown;
-border: 3px solid #C19A6B;
+border: 4px solid #C19A6B;
 padding: 9px;
-margin-bottom: 12px;
+margin-bottom: 10px;
 display: block;
-block-size:40px;
+block-size:30px;
 width: 300px;
 }
 
