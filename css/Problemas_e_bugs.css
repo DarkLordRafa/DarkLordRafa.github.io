@@ -117,7 +117,7 @@ font-size: 22px;
 	}
 	
 #problemas{
-font-size: 26px;
+font-size: 32px;
 	}
 
 p{
@@ -128,26 +128,6 @@ h1{
 font-size: 32px;
 	}
 
-audio{
-height: 35px;
-padding-bottom: 12px;
-	}
-
-video{
-height: 350px;
-width: 100%;
-	}
-
-.imagem_larga{
-height: 400px;
-width: 100%;
-	}
-
-.imagem_estreita{
-height: 500px;
-width: 350px;
-	}
-	
 .bloco{
 padding-bottom: 150px;
 	}
