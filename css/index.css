@@ -205,6 +205,88 @@ padding-bottom: 150px;
 }
 
 
+@media (min-width: 1024px) and (max-width: 1920px){
+
+body{
+background-size: cover;
+	}
+
+header li{
+background: SaddleBrown;
+border: 10px solid #C19A6B;
+padding: 24px;
+margin: 12px;
+display: inline-block;
+margin-bottom: 28px;
+	}
+
+header a{
+color: #FFFFFF;
+text-decoration: none;
+font-size: 44px;
+	}
+
+p{
+font-size: 52px;
+	}
+
+#atualizações{
+font-size: 60px;
+}
+	
+h1{
+font-size: 64px;
+	}
+
+audio{
+height: 70px;
+padding-bottom: 24px;
+	}
+
+video{
+height: 40%;
+width: 100%;
+	}
+
+.imagem_larga{
+height: 40%;
+width: 80%;
+	}
+
+.imagem_estreita{
+height: 60%;
+width: 40%;
+	}
+
+#Mu1{
+height:65%;
+width: 45%;
+	}
+
+#Shaka1{
+height: 60&;
+width: 38%;
+}
+	
+.bloco{
+padding-bottom: 20%;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
