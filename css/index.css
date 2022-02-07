@@ -213,11 +213,11 @@ background-size: cover;
 
 header li{
 background: SaddleBrown;
-border: 10px solid #C19A6B;
+border: 8px solid #C19A6B;
 padding: 15px;
-margin: 10px;
+margin: 8px;
 display: inline-block;
-margin-bottom: 20px;
+margin-bottom: 15px;
 	}
 
 header a{
@@ -235,7 +235,7 @@ font-size: 40px;
 }
 	
 h1{
-font-size: 50px;
+font-size: 45px;
 	}
 
 audio{
@@ -250,7 +250,7 @@ width: 80%;
 
 .imagem_larga{
 height: 400px;
-width: 90%;
+width: 70%;
 	}
 
 .imagem_estreita{
