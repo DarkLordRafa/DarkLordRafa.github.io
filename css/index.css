@@ -244,8 +244,8 @@ padding-bottom: 20px;
 	}
 
 video{
-height:300px;
-width: 80%;
+height:50vh;
+width: 70vw;
 	}
 
 .imagem_larga{
@@ -254,18 +254,18 @@ width: 80vw;
 	}
 
 .imagem_estreita{
-height: 500px;
-width: 40%;
+height: 70vh;
+width: 50vw;
 	}
 
 #Mu1{
-height: 500px;
-width: 45%;
+height: 70vh;
+width: 50vw;
 	}
 
 #Shaka1{
-height: 500px;
-width: 38%;
+height: 70vh;
+width: 40vw;
 }
 	
 .bloco{
