@@ -213,7 +213,7 @@ background-size: cover;
 
 header li{
 background: SaddleBrown;
-border: 6px solid #C19A6B;
+border: 5px solid #C19A6B;
 padding: 12px;
 margin: 6px;
 display: inline-block;
@@ -260,12 +260,12 @@ width: 50vw;
 
 #Mu1{
 height: 70vh;
-width: 50vw;
+width: 40vw;
 	}
 
 #Shaka1{
 height: 70vh;
-width: 40vw;
+width: 30vw;
 }
 	
 .bloco{
