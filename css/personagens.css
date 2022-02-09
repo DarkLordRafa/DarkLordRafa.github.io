@@ -262,24 +262,20 @@ height: 70vh;
 width: 50vw;
 	}
 
-#menu_personagens{
-paddinnng-right: 50px;
-}
-
 #menu_personagens li{
 display: inline-block;
 padding-right: 15px;
 }
 
 #menu_personagens h1{
-padding-top: 9px;
-font-size: 30px;
+padding-top: 10vh;
+font-size: 25px;
 }
 
 #menu_personagens img{
-border: 2vw solid DarkBlue;
-height: 10vh;
-width: 10vw;
+border: 15px solid DarkBlue;
+height: 30vh;
+width: 30vw;
 	}
 
 .bloco{
