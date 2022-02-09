@@ -219,7 +219,74 @@ padding-bottom: 150px;
 }
 
 
+@media (min-width: 1024px) and (max-width: 1439px){
 
+body{
+background-size: cover;
+	}
+
+header{
+padding-top: 42px;
+}
+
+header li{
+background: SaddleBrown;
+border: 5px solid #C19A6B;
+padding: 12px;
+margin: 6px;
+display: inline-block;
+margin-bottom: 12px;
+	}
+
+header a{
+color: #FFFFFF;
+text-decoration: none;
+font-size: 30px;
+	}
+
+p{
+font-size: 32px;
+	}
+	
+h1{
+font-size: 40px;
+	}
+
+.imagem_larga{
+height: 70vh;
+width: 80vw;
+	}
+
+.imagem_estreita{
+height: 70vh;
+width: 50vw;
+	}
+
+#menu_personagens{
+padding-right: 50px;
+}
+
+#menu_personagens li{
+display: inline-block;
+padding-right: 15px;
+}
+
+#menu_personagens h1{
+padding-top: 9px;
+font-size: 20px;
+}
+
+#menu_personagens img{
+border: 8px solid DarkBlue;
+height: 200px;
+width: 200px;
+	}
+
+.bloco{
+padding-bottom: 20vh;
+	}
+
+}
 
 
 
