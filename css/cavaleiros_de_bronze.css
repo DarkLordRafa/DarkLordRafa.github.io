@@ -240,7 +240,7 @@ video{
 height:50vh;
 width: 70vw;
 padding-top: 10vh;
-padding-bottom: 40vh;
+padding-bottom: 30vh;
 	}
 
 img{
@@ -250,12 +250,12 @@ padding-bottom: 15vh;
 	
 .imagem_larga{
 height: 70vh;
-width: 80vw;
+width: 70vw;
 	}
 
 .imagem_estreita{
 height: 70vh;
-width: 50vw;
+width: 40vw;
 	}
 
 #final{
