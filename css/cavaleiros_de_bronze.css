@@ -239,11 +239,13 @@ padding-bottom: 20px;
 video{
 height:50vh;
 width: 70vw;
+padding-top: 10vh;
+padding-bottom: 40vh;
 	}
 
 img{
-padding-top: 10vh;
-padding-bottom: 30vh;
+padding-top: 5vh;
+padding-bottom: 15vh;
 	}
 	
 .imagem_larga{
