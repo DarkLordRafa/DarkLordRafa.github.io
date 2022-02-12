@@ -151,6 +151,62 @@ padding-bottom: 150px;
 }
 
 
+@media (min-width: 1024px) and (max-width: 1439px){
+
+body{
+background-size: cover;
+	}
+
+header li{
+background: SaddleBrown;
+border: 5px solid #C19A6B;
+padding: 12px;
+margin: 6px;
+display: inline-block;
+margin-bottom: 12px;
+	}
+
+header a{
+color: #FFFFFF;
+text-decoration: none;
+font-size: 30px;
+	}
+
+p{
+font-size: 32px;
+	}
+
+h1{
+font-size: 40px;
+	}
+
+.imagem_larga{
+height: 70vh;
+width: 80vw;
+	}
+	
+#Atena1{
+height:50vh;
+width: 40vw;
+}
+	
+.bloco{
+padding-bottom: 20vh;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
