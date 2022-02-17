@@ -290,6 +290,10 @@ padding-bottom: 20vh;
 body{
 background-size: cover;
 	}
+	
+header{
+padding-top: 9vh;
+	}
 
 header li{
 background: SaddleBrown;
@@ -335,7 +339,7 @@ font-size: 38px;
 }
 
 #menu_personagens img{
-border: 8px solid DarkBlue;
+border: 12px solid DarkBlue;
 height: 22vh;
 width: 14vw;
 	}
