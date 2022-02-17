@@ -283,34 +283,34 @@ background-size: cover;
 
 header li{
 background: SaddleBrown;
-border: 5px solid #C19A6B;
-padding: 12px;
-margin: 6px;
+border: 8px solid #C19A6B;
+padding: 15px;
+margin: 9px;
 display: inline-block;
-margin-bottom: 12px;
+margin-bottom: 15px;
 	}
 
 header a{
 color: #FFFFFF;
 text-decoration: none;
-font-size: 30px;
-	}
-
-p{
-font-size: 32px;
-	}
-
-#atualizações{
-font-size: 34px;
-}
-	
-h1{
 font-size: 40px;
 	}
 
+p{
+font-size: 42px;
+	}
+
+#atualizações{
+font-size: 44px;
+}
+	
+h1{
+font-size: 50px;
+	}
+
 audio{
-height: 30px;
-padding-bottom: 20px;
+height: 40px;
+padding-bottom: 30px;
 	}
 
 video{
