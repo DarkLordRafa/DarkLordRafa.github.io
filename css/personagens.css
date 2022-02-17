@@ -285,6 +285,67 @@ padding-bottom: 20vh;
 }
 
 
+@media (min-width: 1440px){
+
+body{
+background-size: cover;
+	}
+
+header li{
+background: SaddleBrown;
+border: 8px solid #C19A6B;
+padding: 15px;
+margin: 9px;
+display: inline-block;
+margin-bottom: 15px;
+	}
+
+header a{
+color: #FFFFFF;
+text-decoration: none;
+font-size: 40px;
+	}
+
+p{
+font-size: 42px;
+	}
+	
+h1{
+font-size: 50px;
+	}
+
+.imagem_larga{
+height: 70vh;
+width: 80vw;
+	}
+
+.imagem_estreita{
+height: 70vh;
+width: 50vw;
+	}
+
+#menu_personagens li{
+display: inline-block;
+padding-right: 25px;
+}
+
+#menu_personagens h1{
+padding-top: 25px;
+font-size: 38px;
+}
+
+#menu_personagens img{
+border: 8px solid DarkBlue;
+height: 22vh;
+width: 14vw;
+	}
+	
+.bloco{
+padding-bottom: 20vh;
+	}
+
+}
+
 
 
 
