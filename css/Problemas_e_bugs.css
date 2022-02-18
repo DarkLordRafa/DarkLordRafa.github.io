@@ -175,6 +175,45 @@ padding-bottom: 20vh;
 }
 
 
+@media (min-width: 1440px){
+
+body{
+background-size: cover;
+	}
+
+header li{
+background: SaddleBrown;
+border: 7px solid #C19A6B;
+padding: 15px;
+margin: 9px;
+display: inline-block;
+margin-bottom: 15px;
+	}
+
+header a{
+color: #FFFFFF;
+text-decoration: none;
+font-size: 40px;
+	}
+	
+#problemas{
+font-size: 42px;
+	}
+
+p{
+font-size: 42px;
+	}
+	
+h1{
+font-size: 50px;
+	}
+
+.bloco{
+padding-bottom: 20vh;
+	}
+
+}
+
 
 
 
