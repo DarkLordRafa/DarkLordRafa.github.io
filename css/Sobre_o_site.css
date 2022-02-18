@@ -269,6 +269,68 @@ padding-bottom: 20vh;
 }
 
 
+@media (min-width: 1440px){
+
+body{
+background-size: cover;
+	}
+	
+header{
+padding-top: 5vh;
+}
+
+header li{
+background: SaddleBrown;
+border: 7px solid #C19A6B;
+padding: 15px;
+margin: 9px;
+display: inline-block;
+margin-bottom: 15px;
+	}
+
+header a{
+color: #FFFFFF;
+text-decoration: none;
+font-size: 40px;
+	}
+
+.lista{
+width: 40vh;
+padding-top: 50px;
+padding-right: 60px;
+}
+
+.lista li{
+background: SaddleBrown;
+border: 5px solid #C19A6B;
+padding: 9px;
+margin-bottom: 10px;
+display: block;
+block-size:22px;
+width: 300px;
+}
+
+.lista a{
+color: #FFFFFF;
+text-decoration: none;
+padding: 0;
+font-size: 32px;
+}
+	
+p{
+font-size: 42px;
+	}
+	
+h1{
+font-size: 50px;
+	}
+	
+.bloco{
+padding-bottom: 20vh;
+	}
+
+}
+
 
 
 
