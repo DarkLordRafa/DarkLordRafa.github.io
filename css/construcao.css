@@ -243,6 +243,60 @@ padding-bottom: 20vh;
 }
 
 
+@media (min-width: 1440px){
+
+body{
+background-size: cover;
+	}
+	
+header{
+padding-top: 5vh;
+	}
+
+header li{
+background: SaddleBrown;
+border: 7px solid #C19A6B;
+padding: 15px;
+margin: 9px;
+display: inline-block;
+margin-bottom: 15px;
+	}
+
+header a{
+color: #FFFFFF;
+text-decoration: none;
+font-size: 40px;
+	}
+
+p{
+font-size: 42px;
+	}
+	
+h1{
+font-size: 50px;
+	}
+
+audio{
+height: 40px;
+padding-bottom: 30px;
+	}
+
+.imagem_larga{
+height: 70vh;
+width: 80vw;
+	}
+
+.imagem_estreita{
+height: 70vh;
+width: 50vw;
+	}
+
+.bloco{
+padding-bottom: 20vh;
+	}
+
+}
+
 
 
 
