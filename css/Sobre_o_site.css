@@ -295,7 +295,7 @@ font-size: 40px;
 	}
 
 .lista{
-width: 40vh;
+width: 50vh;
 padding-top: 50px;
 padding-right: 60px;
 }
@@ -306,7 +306,7 @@ border: 5px solid #C19A6B;
 padding: 9px;
 margin-bottom: 10px;
 display: block;
-block-size:22px;
+block-size:32px;
 width: 300px;
 }
 
