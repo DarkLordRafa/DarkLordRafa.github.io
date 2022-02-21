@@ -226,6 +226,11 @@ padding-bottom: 250px;
 height: 500px;
 width: 100%;
 	}
+	
+#Mu{
+height: 600px;
+width: 500px;
+	}
 
 .imagem_estreita{
 height: 600px;
@@ -295,6 +300,41 @@ height: 70vh;
 width: 35vw;
 	}
 
+#Mu{
+height: 70vh;
+width: 60vw;
+	}
+	
+#Aldebaran{
+height: 70vh;
+width: 50vw;
+	}
+	
+#Shaka{
+height: 70vh;
+width: 50vw;
+	}
+	
+#Dohko{
+height: 70vh;
+width: 50vw;
+	}
+	
+#Aiolos{
+height: 70vh;
+width: 50vw;
+	}
+	
+#Shura{
+height: 70vh;
+width: 50vw;
+	}
+	
+#Afrodite{
+height: 70vh;
+width: 50vw;
+	}
+	
 .bloco{
 padding-bottom: 20vh;
 	}
@@ -356,6 +396,41 @@ width: 70vw;
 .imagem_estreita{
 height: 70vh;
 width: 35vw;
+	}
+	
+#Mu{
+height: 70vh;
+width: 60vw;
+	}
+	
+#Aldebaran{
+height: 70vh;
+width: 50vw;
+	}
+	
+#Shaka{
+height: 70vh;
+width: 50vw;
+	}
+	
+#Dohko{
+height: 70vh;
+width: 50vw;
+	}
+	
+#Aiolos{
+height: 70vh;
+width: 50vw;
+	}
+	
+#Shura{
+height: 70vh;
+width: 50vw;
+	}
+	
+#Afrodite{
+height: 70vh;
+width: 50vw;
 	}
 
 .bloco{
