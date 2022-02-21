@@ -39,8 +39,12 @@ p{
 text-align: left;
 }
 
-#atualizações{
+.center{
 text-align: center;
+padding-top: 10vh;
+}
+
+#atualizações{
 color: Yellow;
 }
 
@@ -55,10 +59,6 @@ font-weight: Bold;
 
 .bloco{
 padding-bottom: 400px;
-}
-
-.center{
-text-align: center;
 }
 
 
@@ -92,7 +92,7 @@ font-size: 20px;
 
 #atualizações{
 font-size: 24px;
-}
+	}
 	
 h1{
 font-size: 26px;
