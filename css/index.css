@@ -31,9 +31,14 @@ font-size: 50px;
 color: Yellow;
  }
 
-a, a:hover, a:focus, a:active{
+#Atena{
 color: #0096FF;
+text-decoration: none;
  }
+
+#Atena:hover{
+text-decoration: underline;
+}
 
 p{
 text-align: left;
