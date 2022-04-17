@@ -58,6 +58,10 @@ padding-top: 20px;
 border: 10px solid DarkBlue;
 }
 
+#menu_personagens img:active{
+border: 10px solid gold;
+}
+
 
 
 
@@ -134,8 +138,11 @@ font-size: 15px;
 border: 5px solid DarkBlue;
 height: 100px;
 width: 100px;
-	}
-	
+}
+
+#menu_personagens img:active{
+border: 5px solid gold;
+}
 }
 
 
@@ -212,6 +219,10 @@ height: 200px;
 width: 200px;
 	}
 	
+#menu_personagens img:active{
+border: 8px solid gold;
+}
+	
 .bloco{
 padding-bottom: 150px;
 	}
@@ -277,6 +288,10 @@ border: 8px solid DarkBlue;
 height: 22vh;
 width: 14vw;
 	}
+	
+#menu_personagens img:active{
+border: 8px solid gold;
+}
 
 .bloco{
 padding-bottom: 20vh;
@@ -343,6 +358,10 @@ border: 12px solid DarkBlue;
 height: 22vh;
 width: 14vw;
 	}
+	
+#menu_personagens img:active{
+border: 12px solid gold;
+}
 	
 .bloco{
 padding-bottom: 20vh;
